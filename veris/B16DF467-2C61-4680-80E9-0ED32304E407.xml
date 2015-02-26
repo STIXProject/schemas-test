@@ -12,18 +12,7 @@
 	xmlns:xal="urn:oasis:names:tc:ciq:xal:3"
 	xmlns:xnl="urn:oasis:names:tc:ciq:xnl:3"
 	xmlns:xpil="urn:oasis:names:tc:ciq:xpil:3"
-	xsi:schemaLocation="
-	http://cybox.mitre.org/common-2 http://cybox.mitre.org/XMLSchema/common/2.1/cybox_common.xsd
-	http://cybox.mitre.org/cybox-2 http://cybox.mitre.org/XMLSchema/core/2.1/cybox_core.xsd
-	http://cybox.mitre.org/default_vocabularies-2 http://cybox.mitre.org/XMLSchema/default_vocabularies/2.1/cybox_default_vocabularies.xsd
-	http://stix.mitre.org/Incident-1 http://stix.mitre.org/XMLSchema/incident/1.1.1/incident.xsd
-	http://stix.mitre.org/common-1 http://stix.mitre.org/XMLSchema/common/1.1.1/stix_common.xsd
-	http://stix.mitre.org/default_vocabularies-1 http://stix.mitre.org/XMLSchema/default_vocabularies/1.1.1/stix_default_vocabularies.xsd
-	http://stix.mitre.org/extensions/Identity#CIQIdentity3.0-1 http://stix.mitre.org/XMLSchema/extensions/identity/ciq_3.0/1.1.1/ciq_3.0_identity.xsd
-	http://stix.mitre.org/stix-1 http://stix.mitre.org/XMLSchema/core/1.1.1/stix_core.xsd
-	urn:oasis:names:tc:ciq:xal:3 http://stix.mitre.org/XMLSchema/external/oasis_ciq_3.0/xAL.xsd
-	urn:oasis:names:tc:ciq:xnl:3 http://stix.mitre.org/XMLSchema/external/oasis_ciq_3.0/xNL.xsd
-	urn:oasis:names:tc:ciq:xpil:3 http://stix.mitre.org/XMLSchema/external/oasis_ciq_3.0/xPIL.xsd" id="example:Package-9a66ef78-50b3-4e41-bf28-32145913adbf" version="1.1.1" timestamp="2014-02-19T23:50:00+00:00">
+	 id="example:Package-9a66ef78-50b3-4e41-bf28-32145913adbf" version="1.1.1" timestamp="2014-02-19T23:50:00+00:00">
     <stix:Incidents>
         <stix:Incident id="example:incident-38a05002-3a9d-4caa-a6da-9590ed315eaa" timestamp="2014-05-10T17:32:28+00:00" xsi:type='incident:IncidentType'>
             <incident:Title>On October 30th 2006, the Japanese weekly magazine The Weekly Asahi ran a story concerning the leak of a database containing personal information on Nissan customers. Although Nissan was unable to obtain a copy of the alleged database from the magazine, the company has conducted a thorough investigation of this matter. The following is a summary of the key findings:  Based on the limited information supplied by the magazine, Nissan has been unable to match that database with one that exists inside the company. Although the alleged outside database does not match with our own internal database, our investigation has identified certain matching items that could have only been sourced from inside the company. Based on our extensive research, Nissan has been able to identify that certain internal data may have been sourced from an old customer database. These findings are supported through vehicle model codes (model type, base, class etc.) that are exclusively used inside the company. From the data investigations, we have concluded that the most likely timing for the leak to have occurred was between May 2003 and February 2004. Nissans investigations have been conducted through the engagement of a third-party research company. Based on our findings and available information, we have taken the precautionary measure to notify all potentially affected customers whose information could have been found on this old database. Accordingly, Nissan has sent letters to 5,379,909 customers clarifying the situation and apologizing for any inconvenience caused.</incident:Title>

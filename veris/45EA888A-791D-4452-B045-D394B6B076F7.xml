@@ -13,19 +13,7 @@
 	xmlns:xal="urn:oasis:names:tc:ciq:xal:3"
 	xmlns:xnl="urn:oasis:names:tc:ciq:xnl:3"
 	xmlns:xpil="urn:oasis:names:tc:ciq:xpil:3"
-	xsi:schemaLocation="
-	http://cybox.mitre.org/common-2 http://cybox.mitre.org/XMLSchema/common/2.1/cybox_common.xsd
-	http://cybox.mitre.org/cybox-2 http://cybox.mitre.org/XMLSchema/core/2.1/cybox_core.xsd
-	http://cybox.mitre.org/default_vocabularies-2 http://cybox.mitre.org/XMLSchema/default_vocabularies/2.1/cybox_default_vocabularies.xsd
-	http://stix.mitre.org/Incident-1 http://stix.mitre.org/XMLSchema/incident/1.1.1/incident.xsd
-	http://stix.mitre.org/ThreatActor-1 http://stix.mitre.org/XMLSchema/threat_actor/1.1.1/threat_actor.xsd
-	http://stix.mitre.org/common-1 http://stix.mitre.org/XMLSchema/common/1.1.1/stix_common.xsd
-	http://stix.mitre.org/default_vocabularies-1 http://stix.mitre.org/XMLSchema/default_vocabularies/1.1.1/stix_default_vocabularies.xsd
-	http://stix.mitre.org/extensions/Identity#CIQIdentity3.0-1 http://stix.mitre.org/XMLSchema/extensions/identity/ciq_3.0/1.1.1/ciq_3.0_identity.xsd
-	http://stix.mitre.org/stix-1 http://stix.mitre.org/XMLSchema/core/1.1.1/stix_core.xsd
-	urn:oasis:names:tc:ciq:xal:3 http://stix.mitre.org/XMLSchema/external/oasis_ciq_3.0/xAL.xsd
-	urn:oasis:names:tc:ciq:xnl:3 http://stix.mitre.org/XMLSchema/external/oasis_ciq_3.0/xNL.xsd
-	urn:oasis:names:tc:ciq:xpil:3 http://stix.mitre.org/XMLSchema/external/oasis_ciq_3.0/xPIL.xsd" id="example:Package-0019bb76-d037-4df6-bd51-fbdcdb5a2ff9" version="1.1.1" timestamp="2014-07-30T19:04:08+00:00">
+	 id="example:Package-0019bb76-d037-4df6-bd51-fbdcdb5a2ff9" version="1.1.1" timestamp="2014-07-30T19:04:08+00:00">
     <stix:Incidents>
         <stix:Incident id="example:incident-b3487607-7969-4045-a246-52f1dca2f2bc" timestamp="2014-07-30T19:07:18+00:00" xsi:type='incident:IncidentType'>
             <incident:Title>A VAMC Veteran/employee reported that his medical records were accessed without authorization by another VAMC employee in the Pharmacy Service. The Veteran/employee was reviewing a report of everyone who had accessed his records and discovered that this Pharmacy employee had accessed his medical records 59 times between November 2009 and September 2011 without authorization. The Pharmacy employee was not involved in the Veteran/employee's care or treatment. The unauthorized information accessed included the full SSN, full name, date of birth, medical information, medications, lab, home address and home phone number.</incident:Title>

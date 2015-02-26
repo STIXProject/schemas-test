@@ -13,19 +13,7 @@
 	xmlns:xal="urn:oasis:names:tc:ciq:xal:3"
 	xmlns:xnl="urn:oasis:names:tc:ciq:xnl:3"
 	xmlns:xpil="urn:oasis:names:tc:ciq:xpil:3"
-	xsi:schemaLocation="
-	http://cybox.mitre.org/common-2 http://cybox.mitre.org/XMLSchema/common/2.1/cybox_common.xsd
-	http://cybox.mitre.org/cybox-2 http://cybox.mitre.org/XMLSchema/core/2.1/cybox_core.xsd
-	http://cybox.mitre.org/default_vocabularies-2 http://cybox.mitre.org/XMLSchema/default_vocabularies/2.1/cybox_default_vocabularies.xsd
-	http://stix.mitre.org/Incident-1 http://stix.mitre.org/XMLSchema/incident/1.1.1/incident.xsd
-	http://stix.mitre.org/ThreatActor-1 http://stix.mitre.org/XMLSchema/threat_actor/1.1.1/threat_actor.xsd
-	http://stix.mitre.org/common-1 http://stix.mitre.org/XMLSchema/common/1.1.1/stix_common.xsd
-	http://stix.mitre.org/default_vocabularies-1 http://stix.mitre.org/XMLSchema/default_vocabularies/1.1.1/stix_default_vocabularies.xsd
-	http://stix.mitre.org/extensions/Identity#CIQIdentity3.0-1 http://stix.mitre.org/XMLSchema/extensions/identity/ciq_3.0/1.1.1/ciq_3.0_identity.xsd
-	http://stix.mitre.org/stix-1 http://stix.mitre.org/XMLSchema/core/1.1.1/stix_core.xsd
-	urn:oasis:names:tc:ciq:xal:3 http://stix.mitre.org/XMLSchema/external/oasis_ciq_3.0/xAL.xsd
-	urn:oasis:names:tc:ciq:xnl:3 http://stix.mitre.org/XMLSchema/external/oasis_ciq_3.0/xNL.xsd
-	urn:oasis:names:tc:ciq:xpil:3 http://stix.mitre.org/XMLSchema/external/oasis_ciq_3.0/xPIL.xsd" id="example:Package-6b9d72ba-4456-4825-94d8-a4b7e3728fb5" version="1.1.1" timestamp="2013-10-01T21:15:00+00:00">
+	 id="example:Package-6b9d72ba-4456-4825-94d8-a4b7e3728fb5" version="1.1.1" timestamp="2013-10-01T21:15:00+00:00">
     <stix:Incidents>
         <stix:Incident id="example:incident-6be92852-cc33-403d-b1d5-1ccfd9648349" timestamp="2014-05-10T00:58:19+00:00" xsi:type='incident:IncidentType'>
             <incident:Title>On February 8, 2013, we learned that a setting was inadvertently left open following application maintenance, which resulted in a human resources file folder becoming accessible to the Internet.  The file folder was part of the Lawson eProfile application and contained W-2 forms for employees from 2009 - 2012.  As a result, Internet search engines like Google may have indexed files in this folder.  Therefore, if someone entered your name as a search term, the file containing your W-2 could have been one of the results that appeared.  The information on a W-2 includes your name, address, SSN, and earnings information.  </incident:Title>
