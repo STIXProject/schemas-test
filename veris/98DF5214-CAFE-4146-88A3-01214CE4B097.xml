@@ -13,19 +13,7 @@
 	xmlns:xal="urn:oasis:names:tc:ciq:xal:3"
 	xmlns:xnl="urn:oasis:names:tc:ciq:xnl:3"
 	xmlns:xpil="urn:oasis:names:tc:ciq:xpil:3"
-	xsi:schemaLocation="
-	http://cybox.mitre.org/common-2 http://cybox.mitre.org/XMLSchema/common/2.1/cybox_common.xsd
-	http://cybox.mitre.org/cybox-2 http://cybox.mitre.org/XMLSchema/core/2.1/cybox_core.xsd
-	http://cybox.mitre.org/default_vocabularies-2 http://cybox.mitre.org/XMLSchema/default_vocabularies/2.1/cybox_default_vocabularies.xsd
-	http://stix.mitre.org/Incident-1 http://stix.mitre.org/XMLSchema/incident/1.1.1/incident.xsd
-	http://stix.mitre.org/ThreatActor-1 http://stix.mitre.org/XMLSchema/threat_actor/1.1.1/threat_actor.xsd
-	http://stix.mitre.org/common-1 http://stix.mitre.org/XMLSchema/common/1.1.1/stix_common.xsd
-	http://stix.mitre.org/default_vocabularies-1 http://stix.mitre.org/XMLSchema/default_vocabularies/1.1.1/stix_default_vocabularies.xsd
-	http://stix.mitre.org/extensions/Identity#CIQIdentity3.0-1 http://stix.mitre.org/XMLSchema/extensions/identity/ciq_3.0/1.1.1/ciq_3.0_identity.xsd
-	http://stix.mitre.org/stix-1 http://stix.mitre.org/XMLSchema/core/1.1.1/stix_core.xsd
-	urn:oasis:names:tc:ciq:xal:3 http://stix.mitre.org/XMLSchema/external/oasis_ciq_3.0/xAL.xsd
-	urn:oasis:names:tc:ciq:xnl:3 http://stix.mitre.org/XMLSchema/external/oasis_ciq_3.0/xNL.xsd
-	urn:oasis:names:tc:ciq:xpil:3 http://stix.mitre.org/XMLSchema/external/oasis_ciq_3.0/xPIL.xsd" id="example:Package-0ed51013-3100-403f-8898-f52eb8b2a6be" version="1.1.1" timestamp="2013-06-29T00:13:38+00:00">
+	 id="example:Package-0ed51013-3100-403f-8898-f52eb8b2a6be" version="1.1.1" timestamp="2013-06-29T00:13:38+00:00">
     <stix:Incidents>
         <stix:Incident id="example:incident-4e60ac7d-9555-4672-b996-28c61a0b7cfe" timestamp="2014-05-10T00:58:19+00:00" xsi:type='incident:IncidentType'>
             <incident:Title>On August 21, 2012, the 374th Medical Group (374 MDG) at Yokota AB, Japan, discovered a potential compromise of patients' protected health information (PHI) when, on or about September 22, 2011, a former 374 MDG provider mailed surgical reports he performed at the facility to his stateside address. These reports pertained to 438 patients and were intended for the American Board of Surgeons to maintain the provider's board certification. Unfortunately, the package containing the medical information never arrived at his home and the United States Postal Service was unable to locate the package. The data elements involved in the documents include patient names, Social Security Numbers, dates of birth, diagnoses, descriptions and summaries of select procedures and operations performed by the provider between October 2007 and September 2011. Upon discovery, the 374 MDG immediately initiated an investigation to determine the circumstances surrounding the loss and identify those who were potentially impacted. To mitigate this incident and prevent future compromises of this nature, the 374 MDG is currently reviewing their policies and procedures to assist providers with the board certification process. </incident:Title>

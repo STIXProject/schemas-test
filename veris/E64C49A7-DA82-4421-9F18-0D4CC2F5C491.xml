@@ -13,19 +13,7 @@
 	xmlns:xal="urn:oasis:names:tc:ciq:xal:3"
 	xmlns:xnl="urn:oasis:names:tc:ciq:xnl:3"
 	xmlns:xpil="urn:oasis:names:tc:ciq:xpil:3"
-	xsi:schemaLocation="
-	http://cybox.mitre.org/common-2 http://cybox.mitre.org/XMLSchema/common/2.1/cybox_common.xsd
-	http://cybox.mitre.org/cybox-2 http://cybox.mitre.org/XMLSchema/core/2.1/cybox_core.xsd
-	http://cybox.mitre.org/default_vocabularies-2 http://cybox.mitre.org/XMLSchema/default_vocabularies/2.1/cybox_default_vocabularies.xsd
-	http://stix.mitre.org/Incident-1 http://stix.mitre.org/XMLSchema/incident/1.1.1/incident.xsd
-	http://stix.mitre.org/ThreatActor-1 http://stix.mitre.org/XMLSchema/threat_actor/1.1.1/threat_actor.xsd
-	http://stix.mitre.org/common-1 http://stix.mitre.org/XMLSchema/common/1.1.1/stix_common.xsd
-	http://stix.mitre.org/default_vocabularies-1 http://stix.mitre.org/XMLSchema/default_vocabularies/1.1.1/stix_default_vocabularies.xsd
-	http://stix.mitre.org/extensions/Identity#CIQIdentity3.0-1 http://stix.mitre.org/XMLSchema/extensions/identity/ciq_3.0/1.1.1/ciq_3.0_identity.xsd
-	http://stix.mitre.org/stix-1 http://stix.mitre.org/XMLSchema/core/1.1.1/stix_core.xsd
-	urn:oasis:names:tc:ciq:xal:3 http://stix.mitre.org/XMLSchema/external/oasis_ciq_3.0/xAL.xsd
-	urn:oasis:names:tc:ciq:xnl:3 http://stix.mitre.org/XMLSchema/external/oasis_ciq_3.0/xNL.xsd
-	urn:oasis:names:tc:ciq:xpil:3 http://stix.mitre.org/XMLSchema/external/oasis_ciq_3.0/xPIL.xsd" id="example:Package-7e5d24a0-ff4a-4e84-8045-319a4216686d" version="1.1.1" timestamp="2013-11-09T19:34:00+00:00">
+	 id="example:Package-7e5d24a0-ff4a-4e84-8045-319a4216686d" version="1.1.1" timestamp="2013-11-09T19:34:00+00:00">
     <stix:Incidents>
         <stix:Incident id="example:incident-a51ace86-c15a-485d-8c96-b6542ab30c79" timestamp="2014-05-10T00:58:19+00:00" xsi:type='incident:IncidentType'>
             <incident:Title>A Broward County court clerk on Monday joined the ever-growing ranks of workforce employees convicted of using job-related computer systems to commit identity theft. he then sold the information to another person who used it to file fraudulent income tax returns. According to the federal indictment, Kyles was authorized to use the Florida Department of Highway Safety and Motor Vehicles' Driver and Vehicle Information Database while assisting local residents with traffic tickets and driver-related criminal cases.  But Kyles' frequent use of the database triggered a red flag which led to the discovery that she was stealing motorists' identities. Court records did not specify how many identities were stolen, but U.S. District Judge Robin Rosenbaum said Monday that there were at least 10 victims and the loss was between $120,000 and $200,000.</incident:Title>

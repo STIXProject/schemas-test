@@ -13,19 +13,7 @@
 	xmlns:xal="urn:oasis:names:tc:ciq:xal:3"
 	xmlns:xnl="urn:oasis:names:tc:ciq:xnl:3"
 	xmlns:xpil="urn:oasis:names:tc:ciq:xpil:3"
-	xsi:schemaLocation="
-	http://cybox.mitre.org/common-2 http://cybox.mitre.org/XMLSchema/common/2.1/cybox_common.xsd
-	http://cybox.mitre.org/cybox-2 http://cybox.mitre.org/XMLSchema/core/2.1/cybox_core.xsd
-	http://cybox.mitre.org/default_vocabularies-2 http://cybox.mitre.org/XMLSchema/default_vocabularies/2.1/cybox_default_vocabularies.xsd
-	http://stix.mitre.org/Incident-1 http://stix.mitre.org/XMLSchema/incident/1.1.1/incident.xsd
-	http://stix.mitre.org/ThreatActor-1 http://stix.mitre.org/XMLSchema/threat_actor/1.1.1/threat_actor.xsd
-	http://stix.mitre.org/common-1 http://stix.mitre.org/XMLSchema/common/1.1.1/stix_common.xsd
-	http://stix.mitre.org/default_vocabularies-1 http://stix.mitre.org/XMLSchema/default_vocabularies/1.1.1/stix_default_vocabularies.xsd
-	http://stix.mitre.org/extensions/Identity#CIQIdentity3.0-1 http://stix.mitre.org/XMLSchema/extensions/identity/ciq_3.0/1.1.1/ciq_3.0_identity.xsd
-	http://stix.mitre.org/stix-1 http://stix.mitre.org/XMLSchema/core/1.1.1/stix_core.xsd
-	urn:oasis:names:tc:ciq:xal:3 http://stix.mitre.org/XMLSchema/external/oasis_ciq_3.0/xAL.xsd
-	urn:oasis:names:tc:ciq:xnl:3 http://stix.mitre.org/XMLSchema/external/oasis_ciq_3.0/xNL.xsd
-	urn:oasis:names:tc:ciq:xpil:3 http://stix.mitre.org/XMLSchema/external/oasis_ciq_3.0/xPIL.xsd" id="example:Package-8446193f-1dbc-41a5-8cff-c6293e67c02b" version="1.1.1" timestamp="2014-08-18T03:30:00+00:00">
+	 id="example:Package-8446193f-1dbc-41a5-8cff-c6293e67c02b" version="1.1.1" timestamp="2014-08-18T03:30:00+00:00">
     <stix:Incidents>
         <stix:Incident id="example:incident-0dba9468-6f08-424e-a674-1a85082eb149" timestamp="2014-08-18T03:30:00+00:00" xsi:type='incident:IncidentType'>
             <incident:Title>A skimmer is an electronic device that can record credit card information. The skimmer located at Nash Chevron was undetectable to customers because it was connected inside the gas pump.   Employees of Nash Chevron routinely check their pumps for skimming devices; however it is unknown exactly how long the device was in the gas pump. The device could have been in the pump for up to 5 days.   Other gas stations in the City have been notified to check their gas pumps for skimming devices.   The Angels Camp Police Department is encouraging everyone to be vigilant in protecting themselves from fraudulent activity by monitoring their bank statements and credit reports for any unauthorized activity. To avoid skimmers use your credit or debit card inside the store, and use cash whenever you can.  UPDATE: Following this mornings press release regarding a credit card skimmer installed inside a local Chevron gas pump, the Angels Camp Police Department has received a number of comments expressing concern that the release reflected poorly on the business involved. Nothing could be further from the truth.   Because of the vigilance of Nash Chevron and its employees, the skimmer was detected and reported to Angels Camp Police Department. The Angels Camp Police Department applauds Nash Chevron for proactively preventing additional incidents of credit card theft. </incident:Title>

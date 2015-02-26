@@ -13,19 +13,7 @@
 	xmlns:xal="urn:oasis:names:tc:ciq:xal:3"
 	xmlns:xnl="urn:oasis:names:tc:ciq:xnl:3"
 	xmlns:xpil="urn:oasis:names:tc:ciq:xpil:3"
-	xsi:schemaLocation="
-	http://cybox.mitre.org/common-2 http://cybox.mitre.org/XMLSchema/common/2.1/cybox_common.xsd
-	http://cybox.mitre.org/cybox-2 http://cybox.mitre.org/XMLSchema/core/2.1/cybox_core.xsd
-	http://cybox.mitre.org/default_vocabularies-2 http://cybox.mitre.org/XMLSchema/default_vocabularies/2.1/cybox_default_vocabularies.xsd
-	http://stix.mitre.org/Incident-1 http://stix.mitre.org/XMLSchema/incident/1.1.1/incident.xsd
-	http://stix.mitre.org/ThreatActor-1 http://stix.mitre.org/XMLSchema/threat_actor/1.1.1/threat_actor.xsd
-	http://stix.mitre.org/common-1 http://stix.mitre.org/XMLSchema/common/1.1.1/stix_common.xsd
-	http://stix.mitre.org/default_vocabularies-1 http://stix.mitre.org/XMLSchema/default_vocabularies/1.1.1/stix_default_vocabularies.xsd
-	http://stix.mitre.org/extensions/Identity#CIQIdentity3.0-1 http://stix.mitre.org/XMLSchema/extensions/identity/ciq_3.0/1.1.1/ciq_3.0_identity.xsd
-	http://stix.mitre.org/stix-1 http://stix.mitre.org/XMLSchema/core/1.1.1/stix_core.xsd
-	urn:oasis:names:tc:ciq:xal:3 http://stix.mitre.org/XMLSchema/external/oasis_ciq_3.0/xAL.xsd
-	urn:oasis:names:tc:ciq:xnl:3 http://stix.mitre.org/XMLSchema/external/oasis_ciq_3.0/xNL.xsd
-	urn:oasis:names:tc:ciq:xpil:3 http://stix.mitre.org/XMLSchema/external/oasis_ciq_3.0/xPIL.xsd" id="example:Package-cf549a97-98bc-4b0a-a669-8c9ff823ebf3" version="1.1.1" timestamp="2014-09-22T16:01:00+00:00">
+	 id="example:Package-cf549a97-98bc-4b0a-a669-8c9ff823ebf3" version="1.1.1" timestamp="2014-09-22T16:01:00+00:00">
     <stix:Incidents>
         <stix:Incident id="example:incident-47f5d962-9dcf-4b85-b736-410276c8f3b8" timestamp="2014-09-22T16:01:00+00:00" xsi:type='incident:IncidentType'>
             <incident:Title>A state representative has asked Minnesotas legislative auditor to investigate a data privacy breach at the Department of Natural Resources. The DNR announced earlier this week that an employee accessed the drivers or motor vehicle records of about 5,000 Minnesotans without authorization. The DNR says that employee is no longer with the agency, and that it found no evidence that the data was sold, disclosed to others or used for criminal purposes. Rep. Rick Hansen, DFL-South St. Paul, says in a letter to Legislative Auditor Jim Nobles that it would be prudent for him to investigate anyway. Officials havent said why the former employee accessed the records. The DNR sent letters this week to the 5,000 affected Minnesotans. They include several journalists and lawyers, but its not clear why.</incident:Title>

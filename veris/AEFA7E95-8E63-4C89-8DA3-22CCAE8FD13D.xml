@@ -13,19 +13,7 @@
 	xmlns:xal="urn:oasis:names:tc:ciq:xal:3"
 	xmlns:xnl="urn:oasis:names:tc:ciq:xnl:3"
 	xmlns:xpil="urn:oasis:names:tc:ciq:xpil:3"
-	xsi:schemaLocation="
-	http://cybox.mitre.org/common-2 http://cybox.mitre.org/XMLSchema/common/2.1/cybox_common.xsd
-	http://cybox.mitre.org/cybox-2 http://cybox.mitre.org/XMLSchema/core/2.1/cybox_core.xsd
-	http://cybox.mitre.org/default_vocabularies-2 http://cybox.mitre.org/XMLSchema/default_vocabularies/2.1/cybox_default_vocabularies.xsd
-	http://stix.mitre.org/Incident-1 http://stix.mitre.org/XMLSchema/incident/1.1.1/incident.xsd
-	http://stix.mitre.org/ThreatActor-1 http://stix.mitre.org/XMLSchema/threat_actor/1.1.1/threat_actor.xsd
-	http://stix.mitre.org/common-1 http://stix.mitre.org/XMLSchema/common/1.1.1/stix_common.xsd
-	http://stix.mitre.org/default_vocabularies-1 http://stix.mitre.org/XMLSchema/default_vocabularies/1.1.1/stix_default_vocabularies.xsd
-	http://stix.mitre.org/extensions/Identity#CIQIdentity3.0-1 http://stix.mitre.org/XMLSchema/extensions/identity/ciq_3.0/1.1.1/ciq_3.0_identity.xsd
-	http://stix.mitre.org/stix-1 http://stix.mitre.org/XMLSchema/core/1.1.1/stix_core.xsd
-	urn:oasis:names:tc:ciq:xal:3 http://stix.mitre.org/XMLSchema/external/oasis_ciq_3.0/xAL.xsd
-	urn:oasis:names:tc:ciq:xnl:3 http://stix.mitre.org/XMLSchema/external/oasis_ciq_3.0/xNL.xsd
-	urn:oasis:names:tc:ciq:xpil:3 http://stix.mitre.org/XMLSchema/external/oasis_ciq_3.0/xPIL.xsd" id="example:Package-66594aea-06c9-47d5-8d9e-14b1228af2ba" version="1.1.1" timestamp="2013-09-10T20:13:32+00:00">
+	 id="example:Package-66594aea-06c9-47d5-8d9e-14b1228af2ba" version="1.1.1" timestamp="2013-09-10T20:13:32+00:00">
     <stix:Incidents>
         <stix:Incident id="example:incident-4c3695ea-b60a-4d70-ae33-0c2893d61290" timestamp="2014-04-27T19:37:03+00:00" xsi:type='incident:IncidentType'>
             <incident:Title>NYC Bike Share discovered that customer credit card numbers, names, and addresses had been posted on a publicly accessible page of its website.  The glitch was corrected after being active between April 15 and late May.  Customers who initially entered their information incorrectly had their information posted online for 24 hours.  The data was cleared every 24 hours between April 15 and late May.</incident:Title>

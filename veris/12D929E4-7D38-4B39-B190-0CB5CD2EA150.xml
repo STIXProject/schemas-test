@@ -13,19 +13,7 @@
 	xmlns:xal="urn:oasis:names:tc:ciq:xal:3"
 	xmlns:xnl="urn:oasis:names:tc:ciq:xnl:3"
 	xmlns:xpil="urn:oasis:names:tc:ciq:xpil:3"
-	xsi:schemaLocation="
-	http://cybox.mitre.org/common-2 http://cybox.mitre.org/XMLSchema/common/2.1/cybox_common.xsd
-	http://cybox.mitre.org/cybox-2 http://cybox.mitre.org/XMLSchema/core/2.1/cybox_core.xsd
-	http://cybox.mitre.org/default_vocabularies-2 http://cybox.mitre.org/XMLSchema/default_vocabularies/2.1/cybox_default_vocabularies.xsd
-	http://stix.mitre.org/Incident-1 http://stix.mitre.org/XMLSchema/incident/1.1.1/incident.xsd
-	http://stix.mitre.org/ThreatActor-1 http://stix.mitre.org/XMLSchema/threat_actor/1.1.1/threat_actor.xsd
-	http://stix.mitre.org/common-1 http://stix.mitre.org/XMLSchema/common/1.1.1/stix_common.xsd
-	http://stix.mitre.org/default_vocabularies-1 http://stix.mitre.org/XMLSchema/default_vocabularies/1.1.1/stix_default_vocabularies.xsd
-	http://stix.mitre.org/extensions/Identity#CIQIdentity3.0-1 http://stix.mitre.org/XMLSchema/extensions/identity/ciq_3.0/1.1.1/ciq_3.0_identity.xsd
-	http://stix.mitre.org/stix-1 http://stix.mitre.org/XMLSchema/core/1.1.1/stix_core.xsd
-	urn:oasis:names:tc:ciq:xal:3 http://stix.mitre.org/XMLSchema/external/oasis_ciq_3.0/xAL.xsd
-	urn:oasis:names:tc:ciq:xnl:3 http://stix.mitre.org/XMLSchema/external/oasis_ciq_3.0/xNL.xsd
-	urn:oasis:names:tc:ciq:xpil:3 http://stix.mitre.org/XMLSchema/external/oasis_ciq_3.0/xPIL.xsd" id="example:Package-ec7f73e4-40b3-4539-8677-06bac36bc856" version="1.1.1" timestamp="2013-10-10T17:46:00+00:00">
+	 id="example:Package-ec7f73e4-40b3-4539-8677-06bac36bc856" version="1.1.1" timestamp="2013-10-10T17:46:00+00:00">
     <stix:Incidents>
         <stix:Incident id="example:incident-821a92f7-752f-4768-bdcd-0c94d1f8e2ea" timestamp="2014-05-10T00:58:18+00:00" xsi:type='incident:IncidentType'>
             <incident:Title>On June 30, 2011, Yale was notified that an individual affiliated with Yale had searched his name on Google, and located and downloaded from a Yale hosted FTP server an electronic spreadsheet containing names and SSNs.  Upon investigation, Yale concluded that the computer file had been stored for 10 months in a way that left the information in the file searchable using Google.    Upon further investigation, Yale determined that the affected computer file was created in 1999 and was inadvertently moved to an insecure section of the computer server in July 2005.  Although, from July 2005, the file was no longer fully protected from unauthorized public access, it could not be located using an ordinary internet search engine.  The situation changed in September 2010, when Google modified its search engine in a way that allowed it to search files stored on servers like the one holding the affected Yale file.  As a result, between September 2010 and July 1, 2011, it was possible that information in the affected file, including SSNs might have been located through a Google search.</incident:Title>

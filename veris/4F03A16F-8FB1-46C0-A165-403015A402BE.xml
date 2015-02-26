@@ -13,19 +13,7 @@
 	xmlns:xal="urn:oasis:names:tc:ciq:xal:3"
 	xmlns:xnl="urn:oasis:names:tc:ciq:xnl:3"
 	xmlns:xpil="urn:oasis:names:tc:ciq:xpil:3"
-	xsi:schemaLocation="
-	http://cybox.mitre.org/common-2 http://cybox.mitre.org/XMLSchema/common/2.1/cybox_common.xsd
-	http://cybox.mitre.org/cybox-2 http://cybox.mitre.org/XMLSchema/core/2.1/cybox_core.xsd
-	http://cybox.mitre.org/default_vocabularies-2 http://cybox.mitre.org/XMLSchema/default_vocabularies/2.1/cybox_default_vocabularies.xsd
-	http://stix.mitre.org/Incident-1 http://stix.mitre.org/XMLSchema/incident/1.1.1/incident.xsd
-	http://stix.mitre.org/ThreatActor-1 http://stix.mitre.org/XMLSchema/threat_actor/1.1.1/threat_actor.xsd
-	http://stix.mitre.org/common-1 http://stix.mitre.org/XMLSchema/common/1.1.1/stix_common.xsd
-	http://stix.mitre.org/default_vocabularies-1 http://stix.mitre.org/XMLSchema/default_vocabularies/1.1.1/stix_default_vocabularies.xsd
-	http://stix.mitre.org/extensions/Identity#CIQIdentity3.0-1 http://stix.mitre.org/XMLSchema/extensions/identity/ciq_3.0/1.1.1/ciq_3.0_identity.xsd
-	http://stix.mitre.org/stix-1 http://stix.mitre.org/XMLSchema/core/1.1.1/stix_core.xsd
-	urn:oasis:names:tc:ciq:xal:3 http://stix.mitre.org/XMLSchema/external/oasis_ciq_3.0/xAL.xsd
-	urn:oasis:names:tc:ciq:xnl:3 http://stix.mitre.org/XMLSchema/external/oasis_ciq_3.0/xNL.xsd
-	urn:oasis:names:tc:ciq:xpil:3 http://stix.mitre.org/XMLSchema/external/oasis_ciq_3.0/xPIL.xsd" id="example:Package-a3605354-eb95-4500-8b63-4d8dcb9f5714" version="1.1.1" timestamp="2013-08-25T08:33:09+00:00">
+	 id="example:Package-a3605354-eb95-4500-8b63-4d8dcb9f5714" version="1.1.1" timestamp="2013-08-25T08:33:09+00:00">
     <stix:Incidents>
         <stix:Incident id="example:incident-2733d100-40b9-44f6-8529-0fbf08d65260" timestamp="2014-05-10T00:58:19+00:00" xsi:type='incident:IncidentType'>
             <incident:Title>As a result of a software programming error on the part of a contractor on June 6, MO HealthNet is currently notifying 1,357 patients that their personal information was inadvertently exposed. The contractor, Infocrossing, Inc., mistakenly mailed the information to the wrong address.  MO HealthNet reports to the Department of Social Services and purchases and monitors healthcare services for low-income citizens of Missouri. In addition to MO HealthNet alerting affected patients through letters, the organization, through Infocrossing, is offering affected consumers two years of free continuous credit monitoring services and enhanced identity theft consultation and restoration.</incident:Title>
