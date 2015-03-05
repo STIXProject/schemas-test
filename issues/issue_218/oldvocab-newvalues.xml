@@ -8,7 +8,7 @@
 	xmlns:stixVocabs="http://stix.mitre.org/default_vocabularies-1"
 	xmlns:stix="http://stix.mitre.org/stix-1"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	 id="example:Package-9fe7888f-68f5-4fb9-ba67-1ba5d329d04c" version="1.2" timestamp="2015-02-19T19:03:15.524607+00:00">
+	 id="example:Package-9fe7888f-68f5-4fb9-ba67-1ba5d329d04c"  timestamp="2015-02-19T19:03:15.524607+00:00">
     <stix:STIX_Header>
         <stix:Package_Intent xsi:type="stixVocabs:PackageIntentVocab-1.0">Incident</stix:Package_Intent>
         <stix:Description>Sample breach report</stix:Description>
